@@ -120,9 +120,9 @@ form input{
     padding-top: 25px;
 }
 .input-btn{
-    width: 90px;
+    width: 50%;
     padding: 15px;
-    background: black;
+    background: rgb(255, 136, 0);
     color: white;
     font-weight: bold;
     font-size: 18;
