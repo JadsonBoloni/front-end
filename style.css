@@ -37,7 +37,7 @@ nav a{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .produtos h2{
     font-size: 30px;
@@ -52,7 +52,7 @@ nav a{
     margin-top: 10px;
 }
 nav a:hover{
-    color:#c78c19;
+    color: #c78c19;
     text-decoration: underline;
 }
 .produtos li:hover{
@@ -62,24 +62,25 @@ nav a:hover{
     border-color: #088c19;
 }
 .produtos li:hover h2{
-    font-size: 34px;
+    font-size: 42px;
 }
 footer{
     text-align: center;
-    background: #cccccc;
+    background-color: #cccccc;
     padding: 40px;
 }
 .copyright{
     color:#ffffff;
-    font-size: 13px;
+    font-size: 13;
     margin: 20px 0 0;
 }
 main{
-    width: 940px;
+    width: 1240px;
     margin: 0 auto;
 }
 form{
-    margin: 40px 0 ;
+    margin: 40px 0;
+
 }
 form label, form p{
     display: block;
@@ -90,17 +91,48 @@ form input{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
 }
-
 .input-padrao{
-    display:block;
-    margin: 0 0  20px;
+    width:250px;
+    display: block;
+    margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
 }
-.checkbox{
-    margin:20px 0;
+.input-text{
+    width:450px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+.radio-input{
+    display: inline-block;
+}
+.type-info{
+    padding-bottom: 25px;
+}
+.atendimento{
+    padding-bottom: 25px;
+}
+.atendimento p{
+    padding-bottom: 20px;
+}
+#noticias-checkbox{
+    padding-top: 25px;
+}
+.input-btn{
+    width: 90px;
+    padding: 15px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.input-btn:hover{
+    transform: scale(1.1);
 }
 table{
     margin: 20px 0 40px;
